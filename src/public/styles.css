@@ -1,0 +1,86 @@
+body {
+    background-color: rgba(156, 156, 156, 0.561);
+}
+
+.bg-image {
+    background-image: url("../public/images/mostafa_meraji-barber-shop-6797761_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+}
+
+.bg-about {
+    background-color: white;
+    margin-top: 5%;
+    margin: 1px solid black;
+    padding: 2%;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#carouselExample {
+    width: 51vh;
+    padding-left: 4%;
+}
+
+
+@media (min-width:768px) {
+
+    .bg-image {
+        min-height: 80vh;
+        padding: 20%;
+        font-size: 2.5em;
+        min-width: 100%;
+    }
+
+    .bg-about {
+        font-size: 3em;
+        border: 2px solid black;
+    }
+
+    #carouselExample {
+        width: 58vh;
+        margin-left: 4%;
+    }
+
+    nav {
+        font-size: 1.9rem;
+    }
+
+    .btn {
+        font-size: 1.9rem;
+    }
+}
+
+@media (min-width:1024px) {
+    .bg-image {
+        min-height: 70vh;
+        padding: 10%;
+        font-size: 2.3em;
+        min-width: 100%;
+    }
+
+    .bg-about {
+        font-size: 3em;
+        border: 2px solid black;
+    }
+
+    #services-container {
+        font-size: 2.5em;
+    }
+
+    #carouselExample {
+        width: 55vh;
+        margin-left: 30%;
+        margin-top: 1%;
+    }
+
+    nav {
+        font-size: 1.3rem;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+    }
+}
